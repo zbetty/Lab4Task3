@@ -1,5 +1,3 @@
-CREATE DATABASE medicalClinic;
-
 CREATE TABLE patient (
 	"ID" serial primary key,
 	"firstName" text,
