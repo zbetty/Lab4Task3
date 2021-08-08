@@ -85,11 +85,13 @@ PERN stack consists of Postgres, Express, React, and Node.js.
   ![Screen Shot 2021-08-07 at 11 14 51 PM](https://user-images.githubusercontent.com/87283935/128622242-e4e327e1-bdfd-4c97-9c08-5d1b91aa495f.png)
 - `server.js`
   - Let Heroku know to runs the build folder in the client side and create the connection: 
-    ![](../../Desktop/Lab4Task3/Screen Shot 2021-08-07 at 11.15.13 PM.png)  
+  ![server](https://user-images.githubusercontent.com/87283935/128623680-8582527a-ef25-41ce-8ee7-e0e0b3adb011.png)
+ 
 - `package.json`:
   - In `script` section of the server side `package.json`, we need to let Heroku know how to build for deployment.
   - In `engines` section, let Heroku know app's version of npm and node to prevent incompatibilities. 
-  ![](../../Desktop/Lab4Task3/Screen Shot 2021-08-07 at 11.20.25 PM.png)   
+ ![package](https://user-images.githubusercontent.com/87283935/128623690-b370472e-3bc8-470b-a99b-130f07c31a04.png)
+   
 
 
 ## Deployment configurations (client side):
