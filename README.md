@@ -38,13 +38,13 @@ PERN stack consists of Postgres, Express, React, and Node.js.
 
 # Backend
 - `Express` and `Node.js`
-- First, you'd need initialize & keep track of app, by typing in terminal `npm init -y`
-- Then install the dependencies: `npm install express pg cors dotenv nodemon`
+- First, you'd need to initialize & keep track of app, by typing in terminal `npm init -y`
+- Then, install the dependencies: `npm install express pg cors dotenv nodemon`
   - `express` - for the server
   - `pg` - to interact/connect to postgres
-  - `cors` - for difference domain app could interact with each other
+  - `cors` - so differenct domain app could interact with each other
   - `dotenv` - for environmental variables like PORT and postgres login information
-  - `nodemon` - so we don't need to keep refreshing terminal when running code, it does it automatically
+  - `nodemon` - so we don't need to keep refreshing terminal when running code. It does it automatically
 
 ## Backend data with Postgres connection screenshots:
 ![Screen Shot 2021-08-07 at 11 50 53 PM](https://user-images.githubusercontent.com/87283935/128621513-6ac0340d-7417-49fd-b324-0e8f8fd78115.png)    
